@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) {
         // JFrame = a GUI window to add components to
 
+        /*
         JFrame frame = new JFrame();
         frame.setTitle("JFrame title goes here");  // sets title of frame
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);  // exit out of application
@@ -15,7 +16,9 @@ public class Main {
         ImageIcon image = new ImageIcon("ogu.png"); // create an ImageIcon
         frame.setIconImage(image.getImage());  // change icon of frame
         frame.getContentPane().setBackground(new Color(255, 204, 153));  // change color of background
+        */
 //        frame.getContentPane().setBackground(new Color(0xFFCC99));
 
+        MyFrame myFrame = new MyFrame();
     }
 }
