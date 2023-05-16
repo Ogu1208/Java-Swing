@@ -34,3 +34,9 @@ Java의 Swing을 이용한 GUI 프로그램을 제작하기 위해 공부하는 
   
   </details>
   
+  <details>
+  <summary> panels </summary>
+  
+![image](https://github.com/Ogu1208/Java-Swing/assets/76902448/53b974b0-bc06-4535-8d7a-c74588bd9d52)
+  
+  </details>
