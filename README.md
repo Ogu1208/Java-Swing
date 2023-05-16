@@ -27,3 +27,10 @@ Java의 Swing을 이용한 GUI 프로그램을 제작하기 위해 공부하는 
   
   </details>
   
+  <details>
+  <summary> labels </summary>
+  
+  ![image](https://github.com/Ogu1208/Java-Swing/assets/76902448/8cf4dd09-f6d2-4dcd-8c73-15f35022e9cb)
+  
+  </details>
+  
