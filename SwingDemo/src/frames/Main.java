@@ -1,5 +1,4 @@
-import javax.swing.*;
-import java.awt.*;
+package frames;
 
 public class Main {
     public static void main(String[] args) {
