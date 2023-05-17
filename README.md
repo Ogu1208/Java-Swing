@@ -40,3 +40,24 @@ Java의 Swing을 이용한 GUI 프로그램을 제작하기 위해 공부하는 
 ![image](https://github.com/Ogu1208/Java-Swing/assets/76902448/53b974b0-bc06-4535-8d7a-c74588bd9d52)
   
   </details>
+  
+  
+  <details>
+  <summary> Buttons </summary>
+  
+![image](https://github.com/Ogu1208/Java-Swing/assets/76902448/a5daed4d-45a2-429b-8f5b-f4fadd60b08a)
+
+
+  
+  </details>
+  
+  
+  
+  <details>
+  <summary> BorderLayout </summary>
+  
+![image](https://github.com/Ogu1208/Java-Swing/assets/76902448/0f6dcb6b-086b-422f-a6a0-6b95646643ec)
+
+  
+  </details>
+  
