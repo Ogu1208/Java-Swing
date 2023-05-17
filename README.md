@@ -77,3 +77,27 @@ Java의 Swing을 이용한 GUI 프로그램을 제작하기 위해 공부하는 
 
 
   </details>
+  
+  <details>
+  <summary> JLayeredPane </summary>
+ 
+  ![image](https://github.com/Ogu1208/Java-Swing/assets/76902448/aec2714a-42e3-48b6-b46c-1fe2d2f216ff)
+ ![image](https://github.com/Ogu1208/Java-Swing/assets/76902448/a9ef6892-9103-43cb-8257-1a361fcf04c4)
+
+
+   </details>
+   
+   <details>
+   <summary> Open a New Window </summary>
+
+  ![image](https://github.com/Ogu1208/Java-Swing/assets/76902448/f53320fe-aba6-46c5-8ab5-580f03c75c97)
+  ![image](https://github.com/Ogu1208/Java-Swing/assets/76902448/e3057cf3-5dac-4044-8497-a8856a965ead)
+
+  </details>
+  
+  
+
+
+  
+
+
