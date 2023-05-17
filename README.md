@@ -10,6 +10,7 @@ Java의 Swing을 이용한 GUI 프로그램을 제작하기 위해 공부하는 
 
   <details>
     <summary> Image </summary>
+ 
   ![image](https://github.com/Ogu1208/Java-Swing/assets/76902448/505ed275-06d0-437a-b6d4-0c0324632ffe)
   </details>
 
@@ -57,7 +58,22 @@ Java의 Swing을 이용한 GUI 프로그램을 제작하기 위해 공부하는 
   <summary> BorderLayout </summary>
   
 ![image](https://github.com/Ogu1208/Java-Swing/assets/76902448/0f6dcb6b-086b-422f-a6a0-6b95646643ec)
-
   
   </details>
   
+  
+  <details>
+  <summary> FlowLayout </summary>
+  왼쪽에서 오른쪽으로 배치되며 오른쪽에 더 이상 공간이 없으면 다음 줄로 자동 배치되는 게 특징입니다. 일반적으로 플로우 레이아웃은 패널에 버튼을 배열하는 데 사용되며, 기본적으로 가운데 정렬입니다. <br>
+ 
+ ![image](https://github.com/Ogu1208/Java-Swing/assets/76902448/f68120c2-59d1-4e60-9aaa-8ec26acc0907)
+
+  </details>
+  
+  <details>
+  <summary> GridLayout </summary>
+ 
+ ![image](https://github.com/Ogu1208/Java-Swing/assets/76902448/950519f7-66d7-4eec-9bb0-52c28870049a)
+
+
+  </details>
