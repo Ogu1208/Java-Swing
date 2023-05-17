@@ -104,8 +104,11 @@ Java의 Swing을 이용한 GUI 프로그램을 제작하기 위해 공부하는 
 
   </details>
 
+  <details>
+  <summary>textField </summary>
+ 
+![image](https://github.com/Ogu1208/Java-Swing/assets/76902448/0ae13ec1-e04f-4222-b498-2fa9a7472d6a)
 
-
-  
+  </details>
 
 
