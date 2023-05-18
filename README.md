@@ -95,9 +95,20 @@ Java의 Swing을 이용한 GUI 프로그램을 제작하기 위해 공부하는 
 
   </details>
   
-  
+  <details>
+  <summary>JOptionPane </summary>
 
+ [tistory - JOptionPane 자주 쓰는 메소드 정리](https://shin-01.tistory.com/34)
+ 
+![image](https://github.com/Ogu1208/Java-Swing/assets/76902448/b9ccd609-c424-4f0f-a7d4-6453f822b663)
 
-  
+  </details>
+
+  <details>
+  <summary>textField </summary>
+ 
+![image](https://github.com/Ogu1208/Java-Swing/assets/76902448/0ae13ec1-e04f-4222-b498-2fa9a7472d6a)
+
+  </details>
 
 
