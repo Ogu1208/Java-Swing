@@ -1,5 +1,6 @@
 # Java-Swing
 Java의 Swing을 이용한 GUI 프로그램을 제작하기 위해 공부하는 repo입니다.
+This is a repo to study to create a GUI program using Java's Swing.
 
 
 ## :pager: SwingDemo - Frame Study List
@@ -22,21 +23,21 @@ Java의 Swing을 이용한 GUI 프로그램을 제작하기 위해 공부하는 
 
  
   <details>
-  <summary> Frames </summary>
+  <summary> 📁 Frames </summary>
   
   ![image](https://github.com/Ogu1208/Java-Swing/assets/76902448/6567febc-87ea-41c8-9a7d-fe24bae5fe83)
   
   </details>
   
   <details>
-  <summary> labels </summary>
+  <summary> 📁 labels </summary>
   
   ![image](https://github.com/Ogu1208/Java-Swing/assets/76902448/8cf4dd09-f6d2-4dcd-8c73-15f35022e9cb)
   
   </details>
   
   <details>
-  <summary> panels </summary>
+  <summary> 📁 panels </summary>
   
 ![image](https://github.com/Ogu1208/Java-Swing/assets/76902448/53b974b0-bc06-4535-8d7a-c74588bd9d52)
   
@@ -44,7 +45,7 @@ Java의 Swing을 이용한 GUI 프로그램을 제작하기 위해 공부하는 
   
   
   <details>
-  <summary> Buttons </summary>
+  <summary> 📁 Buttons </summary>
   
 ![image](https://github.com/Ogu1208/Java-Swing/assets/76902448/a5daed4d-45a2-429b-8f5b-f4fadd60b08a)
 
@@ -55,7 +56,7 @@ Java의 Swing을 이용한 GUI 프로그램을 제작하기 위해 공부하는 
   
   
   <details>
-  <summary> BorderLayout </summary>
+  <summary> 📁 BorderLayout </summary>
   
 ![image](https://github.com/Ogu1208/Java-Swing/assets/76902448/0f6dcb6b-086b-422f-a6a0-6b95646643ec)
   
@@ -63,7 +64,7 @@ Java의 Swing을 이용한 GUI 프로그램을 제작하기 위해 공부하는 
   
   
   <details>
-  <summary> FlowLayout </summary>
+  <summary> 📁 FlowLayout </summary>
   왼쪽에서 오른쪽으로 배치되며 오른쪽에 더 이상 공간이 없으면 다음 줄로 자동 배치되는 게 특징입니다. 일반적으로 플로우 레이아웃은 패널에 버튼을 배열하는 데 사용되며, 기본적으로 가운데 정렬입니다. <br>
  
  ![image](https://github.com/Ogu1208/Java-Swing/assets/76902448/f68120c2-59d1-4e60-9aaa-8ec26acc0907)
@@ -71,7 +72,7 @@ Java의 Swing을 이용한 GUI 프로그램을 제작하기 위해 공부하는 
   </details>
   
   <details>
-  <summary> GridLayout </summary>
+  <summary> 📁 GridLayout </summary>
  
  ![image](https://github.com/Ogu1208/Java-Swing/assets/76902448/950519f7-66d7-4eec-9bb0-52c28870049a)
 
@@ -79,7 +80,7 @@ Java의 Swing을 이용한 GUI 프로그램을 제작하기 위해 공부하는 
   </details>
   
   <details>
-  <summary> JLayeredPane </summary>
+  <summary> 📁 JLayeredPane </summary>
  
   ![image](https://github.com/Ogu1208/Java-Swing/assets/76902448/aec2714a-42e3-48b6-b46c-1fe2d2f216ff)
  ![image](https://github.com/Ogu1208/Java-Swing/assets/76902448/a9ef6892-9103-43cb-8257-1a361fcf04c4)
@@ -88,7 +89,7 @@ Java의 Swing을 이용한 GUI 프로그램을 제작하기 위해 공부하는 
    </details>
    
    <details>
-   <summary> Open a New Window </summary>
+   <summary> 📁 Open a New Window </summary>
 
   ![image](https://github.com/Ogu1208/Java-Swing/assets/76902448/f53320fe-aba6-46c5-8ab5-580f03c75c97)
   ![image](https://github.com/Ogu1208/Java-Swing/assets/76902448/e3057cf3-5dac-4044-8497-a8856a965ead)
@@ -96,7 +97,7 @@ Java의 Swing을 이용한 GUI 프로그램을 제작하기 위해 공부하는 
   </details>
   
   <details>
-  <summary>JOptionPane </summary>
+  <summary> 📁 JOptionPane </summary>
 
  [tistory - JOptionPane 자주 쓰는 메소드 정리](https://shin-01.tistory.com/34)
  
@@ -105,10 +106,32 @@ Java의 Swing을 이용한 GUI 프로그램을 제작하기 위해 공부하는 
   </details>
 
   <details>
-  <summary>textField </summary>
+  <summary> 📁 textField </summary>
  
 ![image](https://github.com/Ogu1208/Java-Swing/assets/76902448/0ae13ec1-e04f-4222-b498-2fa9a7472d6a)
 
   </details>
+
+
+  <details>
+  <summary> 📁 checkBox </summary>
+ 
+  Set the Icon of the checkbox.
+  If checkbox is selected, the icon changes to the other. You can do so by using  the method `setSelectedSIcon()`.
+ 
+ ![image](https://github.com/Ogu1208/Java-Swing/assets/76902448/4867eb1d-77ab-40bc-ab72-ae9b57667907)
+
+  </details>
+  
+  <details>
+  <summary> 📁 radio buttons </summary>
+ 
+We can limit the choice selection to only one item by putting them within the same grouping. <br>
+To do so, use `ButtonGroup` and add the items to it.
+ 
+  ![image](https://github.com/Ogu1208/Java-Swing/assets/76902448/468076e9-d112-44eb-90fd-f84b6a76ce40)
+
+  </details>
+  
 
 
