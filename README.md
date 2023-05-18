@@ -1,5 +1,6 @@
 # Java-Swing
 Java의 Swing을 이용한 GUI 프로그램을 제작하기 위해 공부하는 repo입니다.
+This is a repo to study to create a GUI program using Java's Swing.
 
 
 ## :pager: SwingDemo - Frame Study List
@@ -112,3 +113,13 @@ Java의 Swing을 이용한 GUI 프로그램을 제작하기 위해 공부하는 
   </details>
 
 
+  <details>
+  <summary>checkBox </summary>
+ 
+  Set the Icon of the checkbox.
+  If checkbox is selected, the icon changes to the other. You can do so by using  the method `setSelectedSIcon()`.
+ 
+ ![image](https://github.com/Ogu1208/Java-Swing/assets/76902448/4867eb1d-77ab-40bc-ab72-ae9b57667907)
+
+
+  </details>
