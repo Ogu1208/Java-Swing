@@ -20,6 +20,7 @@ public class MyFrame extends JFrame implements ActionListener {
         xIcon = new ImageIcon("checkX.png");
         checkIcon = new ImageIcon("checkV.png");
 
+
         button = new JButton();
         button.setText("submit");
         button.addActionListener(this);
