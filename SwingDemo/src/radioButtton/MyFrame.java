@@ -34,7 +34,7 @@ public class MyFrame extends JFrame implements ActionListener {
         pizzaButton.setIcon(pizzaIconn);
         hamburgerButton.setIcon(hamburgerIconn);
         hotdogButton.setIcon(hotdogIconn);
-        
+
         pizzaButton.setFocusable(false);
         hamburgerButton.setFocusable(false);
         hotdogButton.setFocusable(false);
