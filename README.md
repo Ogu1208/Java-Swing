@@ -1,6 +1,9 @@
 # Java-Swing
-Java의 Swing을 이용한 GUI 프로그램을 제작하기 위해 공부하는 repo입니다.
+Java의 Swing을 이용한 GUI 프로그램을 제작하기 위해 공부하는 repo입니다. <br>
 This is a repo to study to create a GUI program using Java's Swing.
+
+I write this README.md in English to practice and improve my writing skills in English.
+If there's any problem with expression or grammar, let me know. Thank you :D
 
 
 ## :pager: SwingDemo - Frame Study List
@@ -18,7 +21,7 @@ This is a repo to study to create a GUI program using Java's Swing.
   
   ----
 
-###  :bulb: Java GUI: Full Course ☕ (FREE)  
+###  :bulb: Java GUI: Full Course ☕ (FREE)  - Bro Code
   Youtube url : [https://www.youtube.com/watch?v=aIdIXsi1qTU](https://www.youtube.com/watch?v=Kmgo00avvEw) <br>
 
  
@@ -66,6 +69,8 @@ This is a repo to study to create a GUI program using Java's Swing.
   <details>
   <summary> 📁 FlowLayout </summary>
   왼쪽에서 오른쪽으로 배치되며 오른쪽에 더 이상 공간이 없으면 다음 줄로 자동 배치되는 게 특징입니다. 일반적으로 플로우 레이아웃은 패널에 버튼을 배열하는 데 사용되며, 기본적으로 가운데 정렬입니다. <br>
+They are laid out from left to right and automatically move to the next line when there is no more space on the right. <br>
+ A flow layout is generally used to arrange buttons in a panel, center aligned by default.
  
  ![image](https://github.com/Ogu1208/Java-Swing/assets/76902448/f68120c2-59d1-4e60-9aaa-8ec26acc0907)
 
@@ -133,5 +138,27 @@ To do so, use `ButtonGroup` and add the items to it.
 
   </details>
   
+  <details>
+  <summary> 📁 combo boxes </summary>
+ 
+You should use the `wrapper class` if you need to store a permitted type.
+ 
+![image](https://github.com/Ogu1208/Java-Swing/assets/76902448/ed147bd0-9aae-4148-bfea-e70b74f6d097)
+
+  </details>
+  
+  
+  <details>
+  <summary> 📁 sliders </summary>
+ 
+To change the text of label according to the sliders's value, implements the `ChangeListener` and overrides the method `statechanged(ChangeEvent e)`. <br>
+And you should add `.addChangeListener` to item that you want to adjust.
+ 
+ ![image](https://github.com/Ogu1208/Java-Swing/assets/76902448/7db6e32c-9626-44c9-91d7-a8580ee5d932)
+
+  </details>
+  
+  
+
 
 
