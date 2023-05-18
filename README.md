@@ -212,7 +212,7 @@ And you should add `.addChangeListener` to item that you want to adjust.
  
  ### progress bar = Visual aid to let the user know that an operation is processing
  
-  If you want to simulate the progress bar increasing over time we can use `Thread.sleep` in try-catch.
+  If you want to simulate the progress bar increasing over time, use `Thread.sleep` in try-catch.
  
 ![image](https://github.com/Ogu1208/Java-Swing/assets/76902448/248c791e-a5b8-423f-b40d-07db6f304ebf)
 
