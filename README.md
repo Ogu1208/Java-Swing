@@ -217,3 +217,82 @@ And you should add `.addChangeListener` to item that you want to adjust.
 ![image](https://github.com/Ogu1208/Java-Swing/assets/76902448/248c791e-a5b8-423f-b40d-07db6f304ebf)
 
   </details>
+  
+  
+  
+    
+  ----
+
+###  :bulb: Java Swing JTable Demo : JTable with .csv file  - Bro Code
+
+  Youtube url : [[https://www.youtube.com/watch?v=aIdIXsi1qTU](https://www.youtube.com/watch?v=S6evF1T_lrU)]([https://www.youtube.com/watch?v=Kmgo00avvEw](https://www.youtube.com/watch?v=S6evF1T_lrU)) <br>
+
+
+### create valuables
+
+#### valuables
+``` java
+    JFrame jFrame;  
+    JScrollPane jScrollPane;
+    JTable jTable;
+    String[] col;  // JTable col
+    Object[][] data;   // data array to input to the table
+```
+
+#### Main Constructor
+You should read file, process the data, and put them into `Object[][] data` Array.
+We'll define this work with the method `getData()` <br>
+Get data using the method `getData()`.
+In Main Constructor, create a JFrame, JTable, JScrollaPane. You should create jScrollPane like this. ` jScrollPane = new JScrollPane(jTable);` because we want to add scroll to the dable.
+Next, Add jScrollPane to jFrame, and add properties of jFrame as below.  Note the use of `pack();`
+``` java
+   Main() {
+        jFrame = new JFrame("JTable Demo");
+        col = new String[] {"Accounts", "Amount"};
+        data = getData();
+        jTable = new JTable(data, col);
+        jScrollPane = new JScrollPane(jTable);
+        jFrame.add(jScrollPane);
+        jFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        jFrame.pack();
+        jFrame.setVisible(true);
+    }
+    
+ ```
+ 
+ #### Object[][] getData(){}
+ 
+
+Specify the path to the file and read it line by line using BufferReader and FileReader. <br>
+First, read line by line to the end of the file using a while statement and add it to the Arraylist. <br>
+After that, we use `split` to count how many columns it has. Create an Object[][] with the size obtained above. <br>
+Looping through the for statement, each line is separated with `split` , and put them. <br>
+Now eturn the data.
+ 
+ ``` java
+  Object[][] getData () {
+        try {
+            String path = FileSystemView.getFileSystemView().getDefaultDirectory().getPath();
+            BufferedReader br = new BufferedReader(new FileReader(path + "/bills.csv"));
+            ArrayList<String> list = new ArrayList<>();
+            String str = "";
+            while ((str = br.readLine()) != null) {
+                list.add(str);
+                System.out.println(str);
+            }
+
+            int n = list.get(0).split(",").length; // how many clumns
+            Object[][] data = new Object[list.size()][n];
+            for (int i = 0; i < list.size(); i++) {
+                data[i] = list.get(i).split(",");
+            }
+            br.close(); // close file
+            return data;
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+ ```
+
