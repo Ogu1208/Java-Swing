@@ -226,6 +226,7 @@ And you should add `.addChangeListener` to item that you want to adjust.
 ###  :bulb: Java Swing JTable Demo : JTable with .csv file  - Bro Code
 
   Youtube url : [[https://www.youtube.com/watch?v=aIdIXsi1qTU](https://www.youtube.com/watch?v=S6evF1T_lrU)]([https://www.youtube.com/watch?v=Kmgo00avvEw](https://www.youtube.com/watch?v=S6evF1T_lrU)) <br>
+![image](https://github.com/Ogu1208/Java-Swing/assets/76902448/2662fff3-8cf7-4c29-a6ac-3aee489de7ac)
 
 
 ### create valuables
